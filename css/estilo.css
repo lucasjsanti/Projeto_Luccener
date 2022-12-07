@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	overflow-x: hidden!important;
+	scroll-behavior: smooth;
+}
+
+.texto_1 {
+	gap: 1rem;
+}
+
+#container {
+	background: url(../Imagens/piso2.png)no-repeat;
+}
+
+.navbar {
+	font-family: 'Staatliches', cursive;
+	font-size: 1.3rem;
+	display: inline-flex!important;
+	cursor: pointer;
+}
+
+.navbar-nav, .nav-item, .nav-link:hover {
+	color: rgb(255, 255, 255)!important;
+}
+
+.slide {
+	background-image: url("../images/piso2.png");
+	background-size: cover; 
+	font-family: 'Anek Latin', sans-serif;
+	padding-top: 20rem;
+	padding-bottom: 22rem;
+}
+
+.img-thumbnail {
+	border: none!important;
+}
+
+.CardServ1 {
+	max-width: 100%;
+	height: 18rem;
+	border-radius: 1px;
+	border: none;
+	background-position: center;
+	background-size: contain;
+	object-fit: cover;
+	padding: 0px!important;
+	margin: 0px,0px,0px,0px!important;
+	display: flex;
+	align-items: center!important;
+	justify-content: center!important;
+
+}
+
+.CardServ2 {
+	max-width: 100%;
+	height: 18rem;
+	border-radius: 1px;
+	border: none;
+	background-position: center;
+	background-size: contain;
+	object-fit: contain;
+	padding: 0px!important;
+	margin: 0px,0px,0px,0px!important;
+	display: flex;
+	align-items: center!important;
+	justify-content: center!important;
+
+}
+
+.carousel {
+
+	background: none;
+	max-width: 100%;
+	flex: start;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.Img2 {
+	background-position: center;
+	background-size: contain;
+	object-fit: cover;
+	width: 100%;
+
+}
+
+.carousel-item {
+
+	transition: transform 0.5s ease, opacity!important;
+}
+
+.TextoServicos {
+	margin: 0;
+}
+
+.tituloSecao {
+	font-family: 'Staatliches', cursive;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	margin-top: 3rem;;
+}
+
+.tituloServico {
+
+	font-family: 'Staatliches', cursive;
+	font-weight: 600;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+div, .carousel-item {
+
+	padding: 0rem;
+	margin: 0rem;
+}
+
+p {
+	font-family: 'Anek Latin', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-align: justify;
+	color: rgb(3, 3, 3);
+}
+
+span {
+	font-family: 'Anek Latin', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+{
+
+	color: #000!important;
+	transition: all 600ms ease-in-out!important;
+	cursor: pointer;
+	width: 3rem!important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+	background-color: #000!important;
+}
+
+
+#rodape {
+	color: white;
+	text-align: center;
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	
+	.card {
+		padding: 3rem;
+	}
+
+	.logo_footer, a {
+		margin-left: 1rem;
+	}
+
+	.slide_show_esmall {
+
+		padding:2rem!important;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+	.card {
+		padding: 3rem;
+	}
+
+
+  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+
+	.card {
+		padding: 3rem;
+		
+	}
+
+	.tituloServico {
+		font-size: 1.8rem;
+	}
+
+	
+	
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+img.height {
+	object-fit: cover;
+	height: 12.74rem;
+
+}
+
+/* Galeria de fotos */
+
+
+
+
+
+
+
+

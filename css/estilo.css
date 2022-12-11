@@ -184,7 +184,7 @@ span {
 
 	.dev-title, span {
 
-		font-size: 0.80rem;
+		font-size: 0.80rem!important;
 	}
 
 }
@@ -204,7 +204,7 @@ span {
 
 	.dev-title, span {
 
-		font-size: 0.80rem;
+		font-size: 0.80rem!important;
 	}
 
   }

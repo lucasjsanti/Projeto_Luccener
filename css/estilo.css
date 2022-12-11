@@ -177,6 +177,11 @@ span {
 		padding:2rem!important;
 	}
 
+	.carousel-item, span {
+
+		font-size: 1.3rem!important;
+	}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/

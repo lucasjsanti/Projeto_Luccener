@@ -182,6 +182,11 @@ span {
 		font-size: 1.3rem!important;
 	}
 
+	.dev-title, span {
+
+		font-size: 0.80rem;
+	}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -197,6 +202,10 @@ span {
 		font-size: 1.3rem!important;
 	}
 
+	.dev-title, span {
+
+		font-size: 0.80rem;
+	}
 
   }
 

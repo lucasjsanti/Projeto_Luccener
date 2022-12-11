@@ -182,7 +182,7 @@ span {
 		font-size: 1.3rem!important;
 	}
 
-	.dev-title, span {
+	.dev-title, span, strong {
 
 		font-size: 0.80rem!important;
 	}
@@ -197,12 +197,12 @@ span {
 		padding: 3rem;
 	}
 
-	.carousel-item, span {
+	.carousel-item, span, strong {
 
 		font-size: 1.3rem!important;
 	}
 
-	.dev-title, span {
+	.dev-title, span, strong {
 
 		font-size: 0.80rem!important;
 	}

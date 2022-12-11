@@ -192,6 +192,11 @@ span {
 		padding: 3rem;
 	}
 
+	.carousel-item, span {
+
+		font-size: 1.3rem!important;
+	}
+
 
   }
 

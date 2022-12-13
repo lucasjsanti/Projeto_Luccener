@@ -13,7 +13,7 @@ body {
 }
 
 #container {
-	background: url(../Imagens/02.jpg)no-repeat;
+	background: url(../imagens/piso2.png)no-repeat;
 }
 
 .navbar {
@@ -203,16 +203,6 @@ span {
 		padding: 3rem;
 	}
 
-	.carousel-item, span {
-
-		font-size: 1.3rem!important;
-	}
-
-	.dev-title {
-
-		font-size: 0.75rem!important;
-	}
-
 
   }
 
@@ -249,4 +239,13 @@ img.height {
 	height: 12.74rem;
 
 }
+
+/* Galeria de fotos */
+
+
+
+
+
+
+
 

@@ -13,7 +13,7 @@ body {
 }
 
 #container {
-	background: url('../Imagens/04.png')no-repeat;
+	background: url('../Imagens/02.jpg')no-repeat;
 }
 
 .navbar {
@@ -28,7 +28,7 @@ body {
 }
 
 .slide {
-	background-image: url("../images/04.png");
+	background-image: url("../images/02.jpg");
 	background-size: cover; 
 	font-family: 'Anek Latin', sans-serif;
 	padding-top: 20rem;

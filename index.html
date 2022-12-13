@@ -43,7 +43,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
-
+   
   </head>
 
   <body>
@@ -87,7 +87,8 @@
       
       <div class="row">
         <div class="col-12 container p-0">
-            <div class="slide d-flex flex-column align-items-center">
+        
+            <div class="slide d-flex flex-column  align-items-center">
               <div id="carousel-slide" class="carousel carousel-fade" data-ride="carousel">
                 <div class="carousel-inner"> <!--Inner -->
 
@@ -109,22 +110,26 @@
      
         
       <!-- Sobre nós -->
-      <div class="row m-0 p-0" style="background: #6a4323;" id="quemsomos">
+      <div class="row m-0 p-0 py-5" style="background: #6a4323;" id="quemsomos">
         <div class="col-12 text-center py-5">
-          <h2 class="tituloSecao py-5" style="color: rgb(252, 252, 252); font-size: 2.5rem;">Quem somos</h2>
+          <h2 class="tituloSecao" style="color: rgb(252, 252, 252); font-size: 2.5rem;">Quem somos</h2>
         </div>
-        <div class="col-xl-6 slide_show_esmall" style="display:flex!important; justify-content:center!important; align-items: center!important;">
+        <div class="col-xl-6 slide_show_esmall d-flex justify-content-center align-items-center">
           <div id="carouselSeta1" class="carousel slide carousel" data-ride="carousel">
-
+            
             <div class="carousel-inner">
               
               <div class="carousel-item active">
-                <img class="CardServ1 p-0 mb-3 bg-body rounded" src="images/Loja4.jpeg" alt="Imagem_loja_003" width="640" height="mr-auto" onclick="clique('img')">
+                <a target="_parent" href="images/Loja_004.jpeg">
+                  <img src="images/Loja_004.jpeg" alt="Loja_004" width="600" height="mr-auto" style="width: 100%;">
+                </a>
               </div>
+
               <div class="carousel-item">
-                <img class="CardServ1 p-0 mb-3 bg-body rounded" src="images/Loja_004.jpeg" alt="Imagem_loja_002" width="640" height="mr-auto" onclick="clique('img')">
+                <a target="_parent" href="images/Loja4.jpeg ">
+                  <img src="images/Loja4.jpeg" alt="Loja_005" width="600" height="mr-auto" style="width: 100%;">
+                </a>
               </div>
-            
 
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta1" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -134,11 +139,12 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
+
             </div> <!-- Fim inner-->
           </div>
         </div>
         <div class="col-xl-6 align-self-center py-5 p-5">
-          <h2 class="text-left" style="font-weight: 300; color: #f6ecddd9;"><strong>A Luccener</strong></h2>
+          <h2 class="text-left" style="font-weight: 300; color:#f6ecddd9;"><strong>A Luccener</strong></h2>
           <p class="text-justify text-light" >
             Uma empresa com mais de <b>10 anos no mercado</b>. Temos <b>materiais de qualidade e custo benefício</b>, <b>um estoque de máquinas de qualidade e com revisões de manutenção períodicas</b> para que você nunca fique na mão. Todas as nossas manutenções contam com <b>profissionalismo</b>, <b>capacidade técnica</b>, <b>eficiência</b> e <b>materiais de primeira qualidade.</b> 
           </p>
@@ -183,10 +189,10 @@
           
       <!-- Serviços -->
 
-      <div class="row justify-content-md-center" style="background: white; padding: 0rem; display: contents;" ><!--Início serviços -->
+      <div class="row justify-content-md-center py-5" style="background: white; padding: 0rem; display: contents;" ><!--Início serviços -->
 
         <div class="row col-12 py-5 justify-content-center text-center">
-          <h2 class="tituloSecao" style="color: rgb(10, 10, 10); font-size: 2.5rem;" id="servicos" >Serviços</h2>
+          <h2 class="tituloSecao py-5" style="color: rgb(10, 10, 10); font-size: 2.5rem;" id="servicos">Serviços</h2>
         </div>
       
         <div class="row col-12" style="justify-content: center;"> <!-- Serviços Cards-->
@@ -195,12 +201,13 @@
             <img src="images/enr_motores.jpg" class="CardServ1 p-0 mb-3 bg-body rounded" style="width:100%;">
             <h3 class="text-dark tituloServico m-0 text-center">Manutenção de máquinas</h3>
             <i class="fa-solid fa-gears mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
-            <div class="mb-0">
-              <p class="mb-0 text-left">Enrolamento de motores</p>
-              <p class="mb-0 text-left">Mecânica de máquinas em geral</p>
-              <p class="mb-0 text-left">Pinturas</p>
-              <p class="mb-0 text-left">Manutenção de lixadeiras</p>
-              <p class="mb-0 text-left">Serviços de torno</p>
+            <div class="">
+              <p class="mb-1 text-left border-text px-2">Enrolamento de motores</p>
+              <p class="mb-1 text-left border-text px-2">Mecânica de máquinas em geral</p>
+              <p class="mb-1 text-left border-text px-2">Pinturas</p>
+              <p class="mb-1 text-left border-text px-2">Manutenção de lixadeiras</p>
+              <p class="mb-1 text-left border-text px-2">Serviços de torno</p>
+              <p class="mb-1 text-left border-text px-2">Manutenção Corretiva</p>
             </div>
           </div> 
 
@@ -211,22 +218,34 @@
               <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                  <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/martelo15kg.png" alt="Martelo 15kg" width="600" style="width:100%;">
+                  <a target="_parent" href="images/martelo15kg.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/martelo15kg.png" alt="Martelo 15kg" width="600" style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/deva.png" alt="Máquina Deva" width="600"  style="width:100%;">
+                  <a target="_parent" href="images/deva.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/deva.png" alt="Máquina Deva" width="600"  style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/polidora2pratos.jpg" alt="Máquina Polidora de 2 Pratos" width="600"  style="width:100%;">
+                  <a target="_parent" href="images/polidora2pratos.jpg ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/polidora2pratos.jpg" alt="Máquina Polidora de 2 Pratos" width="600"  style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/certec.png" alt="Enceradeira Certec" width="600" style="width:100%;">
+                  <a target="_parent" href="images/certec.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/certec.png" alt="Enceradeira Certec" width="600" style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/discao.png" alt="Discão" width="600"  style="width:100%;">
+                  <a target="_parent" href="images/discao.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/discao.png" alt="Discão" width="600"  style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/aspirador.png" alt="Aspirador 220v" width="600"  style="width:100%;">
+                  <a target="_parent" href="images/aspirador.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/aspirador.png" alt="Aspirador 220v" width="600"  style="width:100%;">
+                  </a>
                 </div>
 
               </div> <!-- Fim inner-->
@@ -242,13 +261,13 @@
 
             <h3 class="text-dark tituloServico m-0 text-center">Locação de máquinas</h3>
             <i class="fa-solid fa-handshake mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
-            <div class="mb-0">
-              <p class="mb-0 text-left">Máquina de calafate</p>
-              <p class="mb-0 text-left">Máquina polidora de 1 prato</p>
-              <p class="mb-0 text-left">Máquina polidora de 2 pratos</p>
-              <p class="mb-0 text-left">Martelos rompedores</p>
-              <p class="mb-0 text-left">Martelo demolidores</p>
-              <p class="mb-0 text-left">Lixadeira orbital e manual</p>
+            <div class="">
+              <p class="mb-1 text-left border-text px-2">Máquina de calafate</p>
+              <p class="mb-1 text-left border-text px-2">Máquina polidora de 1 prato</p>
+              <p class="mb-1 text-left border-text px-2">Máquina polidora de 2 pratos</p>
+              <p class="mb-1 text-left border-text px-2">Martelos rompedores</p>
+              <p class="mb-1 text-left border-text px-2">Martelo demolidores</p>
+              <p class="mb-1 text-left border-text px-2">Lixadeira orbital e manual</p>
             </div>
 
           </div>
@@ -258,16 +277,24 @@
               
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-flex  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_6.jpeg" alt="Plateleira_Materiais_001" width="600" height="auto" style="width:100%;">
+                  <a target="_parent" href="images/Materiais_6.jpeg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_6.jpeg" alt="Plateleira_Materiais_001" width="600" height="auto" style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-flex  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_7.jpeg" alt="Plateleira_Materiais_002" width="600" height="auto" style="width:100%;">
+                  <a target="_parent" href="images/Materiais_7.jpeg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_7.jpeg" alt="Plateleira_Materiais_002" width="600" height="auto" style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-flex  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_8.jpeg" alt="Plateleira_Materiais_003" width="600" height="auto" style="width:100%;">
+                  <a target="_parent" href="images/Materiais_8.jpeg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_8.jpeg" alt="Plateleira_Materiais_003" width="600" height="auto" style="width:100%;">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-flex  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_9.jpg"  alt="Plateleira_Materiais_004" width="600" height="auto" style="width:100%;">
+                  <a target="_parent" href="images/Materiais_9.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_9.jpg"  alt="Plateleira_Materiais_004" width="600" height="auto" style="width:100%;">
+                  </a>
                 </div>
               </div> <!-- Fim inner-->
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta3" data-bs-slide="prev">
@@ -281,8 +308,8 @@
             </div>
             <h3 class="text-dark tituloServico m-0 text-center">Venda de materiais</h3>
             <i class="fa-regular fa-credit-card mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
-            <div class="mb-1">
-              <p class="mb-2 text-justify">A <b> Luccener</b> é especializada em todos os tipos de materiais para piso de madeira, marmores, granitos. Aqui você vai encontrar um <b>excelente atendimento</b>, <b>materiais de qualidade</b> e <b>preços acessíveis e que cabem no seu bolso.</b></p>
+            <div class="">
+              <p class="mb-2 text-justify border-text px-2">A <b> Luccener</b> é especializada em todos os tipos de materiais para piso de madeira, marmores, granitos. Aqui você vai encontrar um <b>excelente atendimento</b>, <b>materiais de qualidade</b> e <b>preços acessíveis e que cabem no seu bolso.</b></p>
             </div>
         </div>  
         <!-- Fim Serviços Cards-->
@@ -298,19 +325,19 @@
         <div class=" col-12 col-lg-4 py-5 d-flex justify-content-center align-items-center"> <!-- Serviços Imagens-->
 
           <div class="row text-center">
-            <div class="col-12 col-sm-6 mb-1">
-              <a href="https://rebrilhar.com.br/"><img src="images/rebrilhar.png" class="img-thumbnail" alt="Rebrilhar" width="300" height="mr-auto"></a>
+            <div class="col-12 col-sm-6">
+              <a href="https://rebrilhar.com.br/"><img src="images/rebrilhar.png" class="img-thumbnail" alt="Rebrilhar" width="300" height="mr-auto" style="background-position: center;"></a>
             </div>
 
-            <div class="col-12 col-sm-6 mb-1">
+            <div class="col-12 col-sm-6">
               <a href="https://www.bonardiquimica.com.br/"><img src="images/bonardi.png" class="img-thumbnail" alt="Sparlack"width="300" height="mr-auto"></a>
             </div>
           
-            <div class="col-12 col-sm-6 mb-1">
+            <div class="col-12 col-sm-6">
               <a href="https://bonabrasil.com.br/"><img src="images/Bona.png" class="img-thumbnail" alt="Bona" width="300" height="mr-auto"></a>
             </div>
 
-            <div class="col-12 col-sm-6 mb-1">
+            <div class="col-12 col-sm-6">
                 <a href="https://www.saint-gobain.com.br/"><img src="images/norton.png" class="img-thumbnail" alt="Norton" width="300" height="mr-auto"></a>
             </div>
           </div>
@@ -323,7 +350,7 @@
      <!-- Fale Conosco -->
       <div class=" row justify-content-md-center py-5 m-0 p-0" style="background: #b9b9b9; margin:0rem; justify-content: center;" id="faleconosco">
         <div class="row col-12 py-5 justify-content-center mb-2" style="margin-left:0.4rem;">
-          <h2 class="tituloSecao sm" style="color: rgb(10, 10, 10); font-size: 2.5rem;">Fale conosco</h2>
+          <h2 class="tituloSecao  py-5" style="color: rgb(10, 10, 10); font-size: 2.5rem;">Fale conosco</h2>
         </div>
         <!-- Formulário-->
       
@@ -384,7 +411,7 @@
 
         <a href="#"><img class="navbar-brand logo_footer" height="40" src="images/Group 1.png"/></a>
         <p class="text-dark d-inline m-0 ml-5" style="font-size: 1.3rem; align-self: center!important;">
-          <span style="font-weight:300; font-size:0.80rem; color: rgb(3, 3, 3)" class="ml-3">Luccener &copy; 2022 - <strong>Desenvolvido por Lucas Santi</strong></span>
+          <span style="font-weight:300; font-size:0.80rem; color: rgb(3, 3, 3)" class="ml-3"><strong class="dev-title"> Luccener &copy; 2022 - Desenvolvido por Lucas Santi</strong></span>
         </p>
         <p class="text-dark d-inline ml-5 d-none d-xl-block" style="font-size: 1.3rem; align-self: center!important; margin: 0rem;">
           <a href="mailto:luccenersinteko@hotmail.com"><i class=" text-dark fa-solid fa-envelope mr-1"></i></a>
@@ -399,6 +426,5 @@
       </div>
      
     </footer>
-
   </body>
 </html>

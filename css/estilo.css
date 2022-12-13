@@ -13,7 +13,7 @@ body {
 }
 
 #container {
-	background: url(../Imagens/piso2.png)no-repeat;
+	background: url(../Imagens/02.jpg)no-repeat;
 }
 
 .navbar {
@@ -28,7 +28,7 @@ body {
 }
 
 .slide {
-	background-image: url("../images/piso2.png");
+	background-image: url("../images/02.jpg");
 	background-size: cover; 
 	font-family: 'Anek Latin', sans-serif;
 	padding-top: 20rem;
@@ -45,7 +45,7 @@ body {
 	border-radius: 1px;
 	border: none;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	object-fit: cover;
 	padding: 0px!important;
 	margin: 0px,0px,0px,0px!important;
@@ -158,6 +158,12 @@ span {
 	text-align: center;
 }
 
+.border-text {
+
+	border-left: 0.25rem solid #322614cc;
+
+}
+
 /* Media Queries */
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -177,6 +183,16 @@ span {
 		padding:2rem!important;
 	}
 
+	.carousel-item, span {
+
+		font-size: 1.3rem!important;
+	}
+
+	.dev-title {
+
+		font-size: 0.75rem!important;
+	}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -185,6 +201,16 @@ span {
 
 	.card {
 		padding: 3rem;
+	}
+
+	.carousel-item, span {
+
+		font-size: 1.3rem!important;
+	}
+
+	.dev-title {
+
+		font-size: 0.75rem!important;
 	}
 
 
@@ -223,13 +249,4 @@ img.height {
 	height: 12.74rem;
 
 }
-
-/* Galeria de fotos */
-
-
-
-
-
-
-
 

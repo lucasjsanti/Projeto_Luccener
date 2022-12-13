@@ -234,11 +234,11 @@ span {
 @media (min-width: 1200px) {}
 
 
-img.height {
-	object-fit: cover;
-	height: 12.74rem;
+	img.height {
+		object-fit: cover;
+		height: 12.74rem;
 
-}
+	}
 
 /* Galeria de fotos */
 

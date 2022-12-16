@@ -190,7 +190,7 @@ span {
 
 	.dev-title {
 
-		font-size: x-small!important;
+		font-size: 0.75rem!important;
 	}
 
 }
@@ -203,9 +203,9 @@ span {
 		padding: 3rem;
 	}
 
-	.Texto_locacao {
+	.dev-title {
 
-		font-size: x-small!important;
+		font-size: 0.75rem!important;
 	}
 
   }
@@ -224,14 +224,9 @@ span {
 		font-size: 1.8rem;
 	}
 
-	.Texto_locacao {
-
-		font-size: x-small!important;
-	}
-
 	.dev-title {
 
-		font-size: x-small!important;
+		font-size: 0.75rem!important;
 	}
 	
  }
@@ -252,7 +247,7 @@ span {
 
 	}
 
-/* Galeria de fotos */
+
 
 
 

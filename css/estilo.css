@@ -203,6 +203,10 @@ span {
 		padding: 3rem;
 	}
 
+	.Texto_locacao {
+
+		font-size: small!important;
+	}
 
   }
 
@@ -220,7 +224,10 @@ span {
 		font-size: 1.8rem;
 	}
 
-	
+	.Texto_locacao {
+
+		font-size: small!important;
+	}
 	
  }
 

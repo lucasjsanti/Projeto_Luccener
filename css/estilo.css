@@ -203,7 +203,6 @@ span {
 		padding: 3rem;
 	}
 
-
   }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -220,7 +219,10 @@ span {
 		font-size: 1.8rem;
 	}
 
-	
+	.dev-title {
+
+		font-size: 0.90rem!important;
+	}
 	
  }
 
@@ -239,8 +241,6 @@ span {
 		height: 12.74rem;
 
 	}
-
-/* Galeria de fotos */
 
 
 

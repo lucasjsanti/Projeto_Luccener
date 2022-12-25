@@ -164,6 +164,8 @@ span {
 
 }
 
+
+
 /* Media Queries */
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -203,14 +205,6 @@ span {
 		padding: 3rem;
 	}
 
-<<<<<<< HEAD
-=======
-	.dev-title {
-
-		font-size: 0.60rem!important;
-	}
-
->>>>>>> 54c74d480eca4fefda2d655d912325a3540b8f39
   }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -229,11 +223,7 @@ span {
 
 	.dev-title {
 
-<<<<<<< HEAD
 		font-size: 0.90rem!important;
-=======
-		font-size: 0.60rem!important;
->>>>>>> 54c74d480eca4fefda2d655d912325a3540b8f39
 	}
 	
  }
@@ -254,10 +244,6 @@ span {
 
 	}
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 54c74d480eca4fefda2d655d912325a3540b8f39
 
 
 

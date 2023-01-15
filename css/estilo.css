@@ -46,7 +46,7 @@ body {
 	border: none;
 	background-position: center;
 	background-size: cover;
-	object-fit: cover;
+	object-fit: contain;
 	padding: 0px!important;
 	margin: 0px,0px,0px,0px!important;
 	display: flex;

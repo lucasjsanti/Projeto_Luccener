@@ -28,11 +28,12 @@ body {
 }
 
 .slide {
-	background-image: url("../images/02.jpg");
+	background-image: url("../images/04.png");
 	background-size: cover; 
 	font-family: 'Anek Latin', sans-serif;
 	padding-top: 20rem;
 	padding-bottom: 22rem;
+	background-attachment: fixed!important;
 }
 
 .img-thumbnail {

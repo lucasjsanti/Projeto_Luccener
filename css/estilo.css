@@ -165,6 +165,13 @@ span {
 
 }
 
+.Maps, iframe {
+
+	width: 100%!important;
+	height: 50rem;
+
+}
+
 
 
 /* Media Queries */

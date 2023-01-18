@@ -23,7 +23,7 @@ body {
 	cursor: pointer;
 }
 
-.navbar-nav, .nav-item, .nav-link:hover {
+.navbar-nav, .nav-item, .nav-link {
 	color: rgb(255, 255, 255)!important;
 }
 
@@ -169,6 +169,7 @@ span {
 
 	width: 100%!important;
 	height: 50rem;
+	padding: 0rem;
 
 }
 

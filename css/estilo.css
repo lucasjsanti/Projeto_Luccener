@@ -6,6 +6,7 @@
 body {
 	overflow-x: hidden!important;
 	scroll-behavior: smooth;
+	margin: 0, auto!important;
 }
 
 .texto_1 {
@@ -204,6 +205,11 @@ span {
 		font-size: xx-small!important;
 	}
 
+	.d-small {
+
+		margin-top: 2rem!important;
+	}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -213,6 +219,12 @@ span {
 	.card {
 		padding: 3rem;
 	}
+
+	.d-small {
+
+		margin-top: 2rem!important;
+	}
+
 
   }
 

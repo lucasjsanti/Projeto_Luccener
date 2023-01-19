@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Bellota Text', cursive;
 	font-size: 1rem;
 	display: inline-flex!important;
 	cursor: pointer;
@@ -104,15 +104,15 @@ body {
 }
 
 .tituloSecao {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Baloo Bhaijaan 2', cursive;
 	font-weight: 900;
 	text-align: center;
-	margin-top: 3rem;;
+	margin-top: 3rem;
 }
 
 .tituloServico {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-family:'Baloo Bhaijaan 2', cursive;
+	font-weight: 600;
 	font-size: 1.8rem;
 	text-align: center;
 }
@@ -124,16 +124,35 @@ div, .carousel-item {
 }
 
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Bellota Text', cursive;
 	font-weight: 300;
 	font-size: 1.5rem;
 	text-align: justify;
 	color: #161616;
 }
 
+.p-contact {
+	font-family: 'Bellota Text', cursive;
+	font-size: 1.3rem; 
+	align-self: center!important; 
+	margin: 0rem; 
+	color: #ffff!important; 
+	font-weight:400;
+
+}
+
+.p-developer {
+	font-family: 'Bellota Text', cursive;
+	font-weight:500;
+	font-size: 1.3rem; 
+	font-weight:400; 
+	color: #ffff
+
+}
+
 span {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-family: 'Bellota Text', cursive;
+	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
 }

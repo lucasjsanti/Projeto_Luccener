@@ -53,11 +53,9 @@
   </head>
 
   <body>
-    <!-- Ínício conteúdo -->
-    <div id="container" class="container-fluid p-0">
-      
-      <!-- Barra de Navegação -->
-      <nav class="navbar navbar-expand-lg navbar-light pl-5 pr-5 fixed-top" id="index" style="background: #7c4e35d7">
+    <!-- Barra de Navegação -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light pl-5 pr-5 fixed-top" id="index" style="background: #0000004d">
         <div>         
           <a href="index.html"><img class="navbar-brand" height="80" src="images/luc-cener-logo.svg"/></a>
         </div>
@@ -88,350 +86,380 @@
           </ul>          
         </div>
       </nav>
+    </header>
 
-      <!-- Counteúdo -->
-      
-      <div class="row">
-        <div class="col-12 p-0">
-        
-            <div class="slide d-flex flex-column  align-items-center">
-              <div id="carousel-slide" class="carousel carousel-fade" data-ride="carousel">
-                <div class="carousel-inner"> <!--Inner -->
+    <!-- Slide -->
 
-                  <div class="carousel-item texto_1 active">
-                    <h1 class="display-4" style="font-weight: 600; color: #161616; display: flex!important; justify-content: center!important;">Sempre com você</h1>
-                    <span class="display-6" style="color: #161616; display: flex!important; justify-content: center!important;">Conte com a gente!</span><br>
-                    <span class="display-6" style="color: #161616; display: flex!important; justify-content: center!important;">Serviços de qualidade é aqui!</span>
-                  </div>
-
-                  <div class="carousel-item texto_1">
-                    <h1 class="display-4" style="font-weight: 600; color:#161616; display: flex!important; justify-content: center!important;">Materiais de qualidade</h1>
-                    <span class="display-6 mb-5" style="color: #161616; display: flex!important; justify-content: center!important;">Confira o que temos de melhor para você!</span>
-                  </div>
-                  
-                </div> <!-- Fim Inner-->  
-            </div>
-        </div> 
-      </div>       
-     
-        
-      <!-- Sobre nós -->
-      <div class="row m-0 p-0 py-5" style="background: #492f18;" id="quemsomos">
-        <div class="col-12 text-center py-5">
-          <h2 class="tituloSecao" style="color: rgb(252, 252, 252); font-size: 3rem;">Quem Somos</h2>
-        </div>
-        <div class="col-xl-6 slide_show_esmall d-flex justify-content-center align-items-center">
-          <div id="carouselSeta1" class="carousel slide carousel" data-ride="carousel">
-            
-            <div class="carousel-inner">
-              
-              <div class="carousel-item active">
-                <a target="_parent" href="images/Loja4-min.jpeg">
-                  <img src="images/Loja4-min.jpeg" alt="Loja_004" width="600" height="mr-auto" style="width: 100%;">
-                </a>
-              </div>
-
-              <div class="carousel-item">
-                <a target="_parent" href="images/Loja_004-min.jpeg ">
-                  <img src="images/Loja_004-min.jpeg" alt="Loja_005" width="600" height="mr-auto" style="width: 100%;">
-                </a>
-              </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselSeta1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-
-            </div> <!-- Fim inner-->
-          </div>
-        </div>
-        <div class="col-xl-6 align-self-center py-5 p-5">
-          <h2 class="text-left" style="font-weight: 400; color:#fcfcfc;"><strong>A Luccener</strong></h2>
-          <p class="text-justify" style="color: #fcfcfc;" >
-            Uma empresa com mais de <b>10 anos no mercado</b>. Temos <b>materiais de qualidade e custo benefício</b>, <b>um estoque de máquinas de qualidade e com revisões de manutenção períodicas</b> para que você nunca fique na mão. Todas as nossas manutenções contam com <b>profissionalismo</b>, <b>capacidade técnica</b>, <b>eficiência</b>, além de <b>materiais de primeira qualidade.</b> 
-          </p>
-        </div>
-      </div>
-
-      <div class="row align-self-center p-5 px-5 py-3 m-0 p-0" style="background:#492f18; justify-content: center;">
-        <div class="col-12 col-sm-4 card py-5 px-2 ml-4 mb-3" style="width: 40rem; background: #fcfcfc;">
-          <div class="card-body">
-            <i class="fa-solid fa-bullseye fa-3x" style="display:flex; justify-content: center!important; color:#492f18;"></i>
-            <h5 class="card-title tituloSecao" style="color: #492f18; font-size: 2rem; ">Objetivos</h5>
-            <p class="card-text text-justify" style="color:#492f18;">
-              Temos como principal objetivo trazer os melhores produtos do mercado, dando ao cliente a satisfação que ele merece! 
-            </p>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-4 card py-5 px-2 ml-4 mb-3" style="width: 40rem; background:#fcfcfc;">
-          <div class="card-body ">
-            <i class="fa-solid fa-person-digging fa-3x" style="display:flex; justify-content: center!important; color:#492f18;"></i>
-            <h5 class="card-title tituloSecao" style="color: #492f18; font-size: 2rem;">Comprometimento</h5>
-
-            <p class="card-text text-justify" style="color: #492f18;">
-              Somos transparentes, temos conhecimento no produto em que oferecemos, sempre prezando pela qualidade, resistência e comprometimento com o nosso cliente.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-4 card py-5 px-2 ml-4 mb-3" style="width: 40rem; background:#fcfcfc;">
-          <div class="card-body">
-            <i class="fa-regular fa-eye fa-3x" style="display:flex; justify-content: center!important; color:#492f18;"></i>
-            <h5 class="card-title tituloSecao" style="color: #492f18; font-size: 2rem;">Visão</h5>
-
-            <p class="card-text text-justify">
-              Nossa visão é trazer do mercado o que há de melhor. Também nos preocupamos em nos atualizar dando ao cliente confiabilidade, conforto e tranquilidade.
-            </p>
-          </div>
-        </div>
-      </div>
-    
-      <!-- Fim sobre nós -->
+    <div class="slide">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner"> <!--Inner -->
           
-      <!-- Serviços -->
+          <div class="carousel-item active">
+            <h1 class="display-4" style="font-weight: 600; color: #161616; display: flex!important; justify-content: center!important;">Sempre com você</h1>
+            <span class="display-6" style="color: #161616; display: flex!important; justify-content: center!important;">Conte com a gente!</span><br>
+            <span class="display-6" style="color: #161616; display: flex!important; justify-content: center!important;">Serviços de qualidade é aqui!</span>
+          </div>
 
-      <div class="row justify-content-md-center py-5" style="background: white; padding: 0rem; display: contents;" ><!--Início serviços -->
-
-        <div class="col-12 py-5 justify-content-center text-center">
-          <h2 class="tituloSecao py-5" style="color: rgb(10, 10, 10); font-size: 3rem;" id="servicos">Serviços</h2>
-        </div>
+          
+          <div class="carousel-item ">
+            <h1 class="display-4" style="font-weight: 600; color:#161616; display: flex!important; justify-content: center!important;">Materiais de qualidade</h1>
+            <span class="display-6 mb-5" style="color: #161616; display: flex!important; justify-content: center!important;">Confira o que temos de melhor para você!</span> 
+          </div>
+        </div> <!--/Inner -->
         
-        <div class="col-12" style="justify-content: center;"> <!-- Serviços Cards-->
-          <div class="row">
-            <div class="col-lg-4 col-md-12 p-5 Cardhover">
+        <!-- Controles -->
+        <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+          
+        <a href="#carousel" class="carousel-control-next" data-slide="next">
+          <i class="fas fa-angle-right fa-3x"></i>
+        </a>
+          
+      </div>
+    </div>
+        
+    <!-- Ínício conteúdo -->
+    <div id="container-principal" class="container p-0">
+
+      <!-- Sobre nós -->
+     
+      <div class="container p-0">
+        <div class="row py-5" style="background: #d5bdaf" id="quemsomos">
+
+          <div class="col-12 py-5">
+            <h2 class="tituloSecao" style="color: #161616; font-size: 3rem;">Quem Somos</h2>
+          </div>
+      
+        </div>
+
+        <div class="row justify-content-center" style="background: #d5bdaf;">
+      
+          <div class="col-md-6">
+            <div id="carouselSeta1" class="carousel slide carousel" data-ride="carousel">
+          
+              <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                  <a target="_parent" href="images/Loja4-min.jpeg">
+                    <img src="images/Loja4-min.jpeg" alt="Loja_004" width="300" height="mr-auto" style="width: 100%;">
+                  </a>
+                </div>
+  
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Loja_004-min.jpeg ">
+                    <img src="images/Loja_004-min.jpeg" alt="Loja_005" width="300" height="mr-auto" style="width: 100%;">
+                  </a>
+                </div>
+  
+                <a href="#carouselSeta1" class="carousel-control-prev" data-slide="prev">
+                  <i class="fas fa-angle-left fa-3x"></i>
+                </a>
+                  
+                <a href="#carouselSeta1" class="carousel-control-next" data-slide="next">
+                  <i class="fas fa-angle-right fa-3x"></i>
+                </a>
+  
+              </div> 
+            </div>
+          </div>
+      
+          <div class="col-md-6 align-self-center py-5 p-5" style="background: #d5bdaf;">
+            <h2 class="text-left" style="font-weight: 400; color:#161616;"><strong>A Luccener</strong></h2>
+            <p class="text-justify" style="color: #161616;" >
+              Uma empresa com mais de <b>10 anos no mercado</b>. Temos <b>materiais de qualidade e custo benefício</b>, <b>um estoque de máquinas de qualidade e com revisões de manutenção períodicas</b> para que você nunca fique na mão. Todas as nossas manutenções contam com <b>profissionalismo</b>, <b>capacidade técnica</b>, <b>eficiência</b>, além de <b>materiais de primeira qualidade.</b> 
+            </p>
+          </div>
+
+          <div class="col-12 row d-flex justify-content-center gap-3" style="background: #d5bdaf;">
             
-              <div id="carouselSeta2" class="carousel slide mb-3" data-ride="carousel">
-
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <a target="_parent" href="images/Motor_001.png ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_001.png" alt="Martelo 15kg" width="600" style="width:100%;">
-                    </a>
+            <div class="col-lg-3 col-md-6 mt-3">
+              <div class="row">
+                <div class="card mb-3" style="width: 30rem; background: #fcfcfc;">
+                  <div class="card-body">
+                    <i class="fa-solid fa-bullseye fa-3x" style="display:flex; justify-content: center!important; color:#161616;"></i>
+                    <h5 class="card-title tituloSecao" style="color: #161616; font-size: 2rem; ">Objetivos</h5>
+                    <p class="card-text text-justify" style="color:#161616;">
+                      Temos como principal objetivo trazer os melhores produtos do mercado, dando ao cliente a satisfação que ele merece, mantendo o padrão no atendimento.
+                    </p>
                   </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Motor_002.jpg">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_002.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Motor_003.jpg">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_003.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Motor_005.jpg">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_005.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                </div> <!-- Fim inner-->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta2" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselSeta2" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <h3 class="text-dark tituloServico m-0 text-center">Manutenção de máquinas</h3>
-              <i class="fa-solid fa-gears mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
-              <div class="">
-                <p class="mb-1 text-left border-text px-2">Enrolamento de motores</p>
-                <p class="mb-1 text-left border-text px-2">Mecânica de máquinas em geral</p>
-                <p class="mb-1 text-left border-text px-2">Pinturas</p>
-                <p class="mb-1 text-left border-text px-2">Manutenção de lixadeiras</p>
-              </div>
-            </div> 
-              
-            <div class="col-lg-4 col-md-12 p-5 Cardhover">
-
-              <div id="carouselSeta3" class="carousel slide mb-3" data-ride="carousel">
-
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <a target="_parent" href="images/martelo15kg-min.png ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/martelo15kg-min.png" alt="Martelo 15kg" width="600" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/bosch_30kg-min.jpg">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/bosch_30kg-min.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/deva-min.png ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/deva-min.png" alt="Máquina Deva" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/polidora2pratos.jpg ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/polidora2pratos.jpg" alt="Máquina Polidora de 2 Pratos" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/certec-min.png ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/certec-min.png" alt="Enceradeira Certec" width="600" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/discao-min.png ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/discao-min.png" alt="Discão" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/aspirador-min.png ">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/aspirador-min.png" alt="Aspirador 220v" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-
-                </div> <!-- Fim inner-->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta3" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselSeta3" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-              <h3 class="text-dark tituloServico m-0 text-center">Locação de máquinas</h3>
-              <i class="fa-solid fa-handshake mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
-              <div class="">
-                <p class="mb-1 text-left border-text px-2">Máquina de rolo de calafate</p>
-                <p class="mb-1 text-left border-text px-2">Máquina discão de calafate</p>
-                <p class="mb-1 text-left border-text px-2">Máquina polidora de <strong>pedras em geral</strong></p>
-                <p class="mb-1 text-left border-text px-2">Máquina polidora de <strong>mármores e granitos</strong></p>
-                <p class="mb-1 text-left border-text px-2">Máquina polidora de <strong>granitina e concreto polido</strong></p>
-                <p class="mb-1 text-left border-text px-2">Martelos: <strong>rompedores</strong> e <strong>demolidores</strong></p>
-                <p class="mb-1 text-left border-text px-2">Lixadeiras: <strong>manual, orbital e furadeiras</strong></p>
+                </div>
               </div>
             </div>
-
-            <div class="col-lg-4 col-md-12 p-5 Cardhover">
-              <div id="carouselSeta4" class="carousel slide" data-ride="carousel">
-                
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a target="_parent" href="images/Materiais_11-min.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_11-min.jpg" alt="Plateleira_Materiais_001" width="800" height="auto" style="width:100%;">
-                    </a>
+        
+            <div class="col-lg-3 col-md-6 mt-3">
+              <div class="row">
+                <div class=" card mb-3 " style="width: 30rem; background:#fcfcfc;">
+                  <div class="card-body ">
+                    <i class="fa-solid fa-person-digging fa-3x" style="display:flex; justify-content: center!important; color:#161616;"></i>
+                    <h5 class="card-title tituloSecao" style="color: #161616; font-size: 2rem;">Comprometimento</h5>
+        
+                    <p class="card-text text-justify" style="color: #161616;">
+                      Somos transparentes, conhecimento no produto em que oferecemos sempre prezando pela qualidade e comprometimento com o nosso cliente.
+                    </p>
                   </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_13-min.jpg">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_13-min.jpg" alt="Plateleira_Materiais_002" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_14-min.jpg">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_14-min.jpg" alt="Plateleira_Materiais_003" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_15-min.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_15-min.jpg" alt="Plateleira_Materiais_004" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_16.jpg">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_16.jpg" alt="Plateleira_Materiais_005" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_18-.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_18.jpg" alt="Plateleira_Materiais_006" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_19.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_19.jpg" alt="Plateleira_Materiais_007" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_20.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_20.jpg" alt="Plateleira_Materiais_008" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_21.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_21.jpg" alt="Plateleira_Materiais_009" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_22.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_22.jpg" alt="Plateleira_Materiais_0010" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Materiais_23.jpg ">
-                      <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_23.jpg" alt="Plateleira_Materiais_0011" width="800" height="auto" style="width:100%;">
-                    </a>
-                  </div>
-
-                </div> <!-- Fim inner-->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta4" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselSeta4" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                </div>  
               </div>
-              <h3 class="text-dark tituloServico m-0 text-center">Venda de materiais</h3>
-              <i class="fa-regular fa-credit-card mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
-              <div class="">
-                <p class="mb-2 text-justify border-text px-2">A <b> Luccener</b> é especializada em todos os tipos de materiais para piso de madeira, mármores, granitos. Aqui você vai encontrar um <b>excelente atendimento</b>, <b>materiais de qualidade</b> e <b>preços acessíveis e que cabem no seu bolso.</b></p>
-              </div>
-            </div>    
+            </div>
+        
+            <div class="col-lg-3 col-md-6 mt-3">
+              <div class="row">
+                <div class=" card mb-3" style="width: 30rem; background:#fcfcfc;">
+                  <div class="card-body">
+                    <i class="fa-regular fa-eye fa-3x" style="display:flex; justify-content: center!important; color:#161616;"></i>
+                    <h5 class="card-title tituloSecao" style="color: #161616; font-size: 2rem;">Visão</h5>
+        
+                    <p class="card-text text-justify">
+                      Nossa visão é trazer do mercado o que há de melhor. Também nos preocupamos em nos atualizar dando ao cliente confiabilidade, conforto e tranquilidade.
+                    </p>
+                  </div>
+                </div>
+              </div>  
+            </div>
             
-            <div class="col-lg-4 col-md-12 p-5 Cardhover">
-              <div id="carouselSeta5" class="carousel slide mb-3" data-ride="carousel">
+          </div>
+        </div>
+      </div>
+        <!-- Serviços -->
+        <div class="row" style="background: white;">
 
-                <div class="carousel-inner">
+         
+          <div class="col-12 py-5 justify-content-center text-center p-0">
+            <h2 class="tituloSecao py-5" style="color: rgb(10, 10, 10); font-size: 3rem;" id="servicos">Serviços</h2>
+          </div>
+          
+      
+        </div>
+        <!-- Início serviços -->
+        <div class="row justify-content-center gap-5 p-5" style="background: white;">
 
-                  <div class="carousel-item active">
-                    <a target="_parent" href="images/Politriz.png">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Politriz.png" alt="Politriz Bosch" width="600" style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Esmerilhadeira-min.png">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Esmerilhadeira-min.png" alt="Esmerilhadeira Bosch" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Martelete-min.png">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Martelete-min.png" alt="Martelte Bosch" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Serra_Marmore.jpg">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Serra_Marmore.jpg" alt="Serra Marmore Bosch" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a target="_parent" href="images/Lixadeira_orbital-min.png">
-                      <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Lixadeira_orbital-min.png" alt="Lixadeira Orbital Bosch" width="600"  style="width:100%;">
-                    </a>
-                  </div>
-                </div> <!-- Fim inner-->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeta5" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselSeta5" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+          <div class="col-lg-3 col-md-6">
+            
+            <div id="carouselSeta2" class="carousel slide mb-3" data-ride="carousel">
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <a target="_parent" href="images/Motor_001.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_001.png" alt="Martelo 15kg" width="600" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Motor_002.jpg">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_002.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Motor_003.jpg">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_003.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Motor_005.jpg">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Motor_005.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
+                  </a>
+                </div>
+              </div> <!-- Fim inner-->
+              <a href="#carouselSeta2" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+                
+              <a href="#carouselSeta2" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
+            <h3 class="text-dark tituloServico m-0 text-center">Manutenção de máquinas</h3>
+            <i class="fa-solid fa-gears mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
+            <div class="">
+              <p class="mb-1 text-left border-text px-2">Enrolamento de motores</p>
+              <p class="mb-1 text-left border-text px-2">Mecânica de máquinas em geral</p>
+              <p class="mb-1 text-left border-text px-2">Pinturas</p>
+              <p class="mb-1 text-left border-text px-2">Manutenção de lixadeiras</p>
+            </div>
+          </div> 
+          
+      
+          <div class="col-lg-3 col-md-6">
+            <div id="carouselSeta3" class="carousel slide mb-3" data-ride="carousel">
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <a target="_parent" href="images/martelo15kg-min.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/martelo15kg-min.png" alt="Martelo 15kg" width="600" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/bosch_30kg-min.jpg">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/bosch_30kg-min.jpg" alt="Martelo Bosch 30kg" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/deva-min.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/deva-min.png" alt="Máquina Deva" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/polidora2pratos.jpg ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/polidora2pratos.jpg" alt="Máquina Polidora de 2 Pratos" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/certec-min.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/certec-min.png" alt="Enceradeira Certec" width="600" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/discao-min.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/discao-min.png" alt="Discão" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/aspirador-min.png ">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/aspirador-min.png" alt="Aspirador 220v" width="600"  style="width:100%;">
+                  </a>
+                </div>
+
+              </div> <!-- Fim inner-->
+              <a href="#carouselSeta3" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+                
+              <a href="#carouselSeta3" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
+
+            <h3 class="text-dark tituloServico m-0 text-center">Locação de máquinas</h3>
+            <i class="fa-solid fa-handshake mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
+            <div class="">
+              <p class="mb-1 text-left border-text px-2">Máquina de rolo de calafate</p>
+              <p class="mb-1 text-left border-text px-2">Máquina discão de calafate</p>
+              <p class="mb-1 text-left border-text px-2">Máquina polidora de <strong>pedras em geral</strong></p>
+              <p class="mb-1 text-left border-text px-2">Máquina polidora de <strong>mármores e granitos</strong></p>
+              <p class="mb-1 text-left border-text px-2">Máquina polidora de <strong>granitina e concreto polido</strong></p>
+              <p class="mb-1 text-left border-text px-2">Martelos: <strong>rompedores</strong> e <strong>demolidores</strong></p>
+              <p class="mb-1 text-left border-text px-2">Lixadeiras: <strong>manual, orbital e furadeiras</strong></p>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+            
+            <div id="carouselSeta4" class="carousel slide" data-ride="carousel">
+                  
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a target="_parent" href="images/Materiais_11-min.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_11-min.jpg" alt="Plateleira_Materiais_001" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_13-min.jpg">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_13-min.jpg" alt="Plateleira_Materiais_002" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_14-min.jpg">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_14-min.jpg" alt="Plateleira_Materiais_003" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_15-min.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_15-min.jpg" alt="Plateleira_Materiais_004" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_16.jpg">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_16.jpg" alt="Plateleira_Materiais_005" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_18-.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_18.jpg" alt="Plateleira_Materiais_006" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_19.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_19.jpg" alt="Plateleira_Materiais_007" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_20.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_20.jpg" alt="Plateleira_Materiais_008" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_21.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_21.jpg" alt="Plateleira_Materiais_009" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_22.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_22.jpg" alt="Plateleira_Materiais_0010" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Materiais_23.jpg ">
+                    <img class="CardServ1  p-0 m-0 mb-3 bg-body rounded" src="images/Materiais_23.jpg" alt="Plateleira_Materiais_0011" width="800" height="auto" style="width:100%;">
+                  </a>
+                </div>
+
+              </div> <!-- Fim inner-->
+              <a href="#carouselSeta4" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+                
+              <a href="#carouselSeta4" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
+            <h3 class="text-dark tituloServico m-0 text-center">Venda de materiais</h3>
+            <i class="fa-regular fa-credit-card mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
+            <div class="">
+              <p class="mb-2 text-justify border-text px-2">A <b> Luccener</b> é especializada em todos os tipos de materiais para piso de madeira, mármores, granitos. Aqui você vai encontrar um <b>excelente atendimento</b>, <b>materiais de qualidade</b> e <b>preços acessíveis e que cabem no seu bolso.</b></p>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6">
+            
+            <div id="carouselSeta5" class="carousel slide mb-3" data-ride="carousel">
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <a target="_parent" href="images/Politriz.png">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Politriz.png" alt="Politriz Bosch" width="600" style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Esmerilhadeira-min.png">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Esmerilhadeira-min.png" alt="Esmerilhadeira Bosch" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Martelete-min.png">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Martelete-min.png" alt="Martelte Bosch" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Serra_Marmore.jpg">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Serra_Marmore.jpg" alt="Serra Marmore Bosch" width="600"  style="width:100%;">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a target="_parent" href="images/Lixadeira_orbital-min.png">
+                    <img class="CardServ2 p-0 m-0 bg-body rounded" src="images/Lixadeira_orbital-min.png" alt="Lixadeira Orbital Bosch" width="600"  style="width:100%;">
+                  </a>
+                </div>
+              </div> <!-- Fim inner-->
+              <a href="#carouselSeta5" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+                
+              <a href="#carouselSeta5" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
             <h3 class="text-dark tituloServico m-0 text-center mt-">Venda de máquinas <strong>Bosch</strong></h3>
             <i class="fa-solid fa-hand-holding-dollar mr-2 fa-2x d-flex justify-content-center mb-2 mt-2"></i>
             <div class="">
@@ -442,17 +470,22 @@
               <p class="mb-1 text-left border-text px-2">Lixadeira Orbital</p>
             </div>
           </div>
-        </div> <!-- Fim Cards -->
-      </div><!-- Fim Serviços -->
       
-      <div class="row justify-content-md-center p-0 gap-5" style="background:white!important; justify-content: center;" id="parceiros"> <!--Início Parceiros --><hr>
+        </div> 
+        <!-- Fim serviços -->
 
-        <div class="col-12 py-4 px- 5 justify-content-center text-center" style="margin-left:0.1rem; padding-right: 0px;">
-          <h2 class="tituloSecao" style="color: #161616; font-size: 3rem;">Parceiros</h2>
+        <div class="row" style="background: white; padding: 0rem;">
+
+          <div class="col-12">
+            <div class="col-12 py-5 justify-content-center text-center">
+              <h2 class="tituloSecao py-5" style="color: rgb(10, 10, 10); font-size: 3rem;" id="Parceiros">Parceiros</h2>
+            </div>
+          </div>
+      
         </div>
         
           
-        <div class="row justify-content-center align-items-center align-self-center mb-3"><!-- Serviços Imagens-->
+        <div class="row justify-content-center align-items-center align-self-center" style="background: white;"><!-- Serviços Imagens-->
       
           <div class="col-lg-3 col-md-6 text-center mb-5">
             <a href="https://rebrilhar.com.br/"><img src="images/rebrilhar.png" class="img-thumbnail" alt="Logo Rebrilhar" width="220"></a>
@@ -490,51 +523,53 @@
             <a><img src="images/Coldemar.jpeg" class="img-thumbnail" alt="Logo Coldemar Resinas Acrílicas" width="220"></a>
           </div>
         </div>
-      </div> 
-      <!-- Fim Parceiros -->
-      
-     <!-- Fale Conosco -->
-      <div class="justify-content-md-center py-5 m-0 p-0" style="background: #dbd5d5; margin:0rem; justify-content: center;" id="faleconosco">
-        <div class="col-12 py-5 justify-content-center mb-2" style="margin-left:0.4rem;">
-          <h2 class="tituloSecao  py-5" style="color: #161616; font-size: 3rem;">Fale conosco</h2>
-        </div>
-        
-        <div class="row gx-2 justify-content-center">
 
-          <div class="col-md-4">
-            <h3 class="text-center"><strong>César Lopes</strong></h3>
-            <p class="d-flex justify-content-center">Gerente Administrativo</p>
-            <p class="d-flex justify-content-center">Diretor</p>
-            <span class="d-flex justify-content-center "><a href="https://api.whatsapp.com/send?phone=5521996439840"><i class="fa-brands fa-whatsapp mr-2" style="color:#161616;"></i></a></span>
+        <!-- Fale Conosco -->
+        <div class="container"  id="faleconosco">
+
+          <div class="row py-5 justify-content-center" style= "background: #edede9">
+            <h2 class="tituloSecao py-5" style="color: #161616; font-size: 3rem;">Fale Conosco</h2>
           </div>
-      
-          <div class="col-md-4 d-small">
-            <h3 class="text-center"><strong>Bruna Rodrigues</strong> </h3>
-            <p class="d-flex justify-content-center">Auxiliar Administrativo</p>
-            <p class="d-flex justify-content-center">Vendas</p>
-            <p class="d-flex justify-content-center mb-5" style="align-items: center;">
-              <a href="https://api.whatsapp.com/send?phone=5521996433738"><i class="fa-brands fa-whatsapp float-left mr-2" style="color:#161616;"></i></a>
-              <a href="mailto: luccenersinteko@hotmail.com"><i class="fa-solid fa-envelope mr-2" style="color:#161616;"></i></a>
-            </p>
+        
+          <div class="row justify-content-center" style= "background: #edede9;">
+
+            <div class="col-md-4">
+              <h3 class="text-center"><strong>César Lopes</strong></h3>
+              <p class="d-flex justify-content-center">Gerente Administrativo</p>
+              <p class="d-flex justify-content-center">Diretor</p>
+              <span class="d-flex justify-content-center "><a href="https://api.whatsapp.com/send?phone=5521996439840"><i class="fa-brands fa-whatsapp mr-2" style="color:#161616;"></i></a></span>
+            </div>
+        
+            <div class="col-md-4 d-small">
+              <h3 class="text-center"><strong>Bruna Rodrigues</strong> </h3>
+              <p class="d-flex justify-content-center">Auxiliar Administrativo</p>
+              <p class="d-flex justify-content-center">Vendas</p>
+              <p class="d-flex justify-content-center mb-5" style="align-items: center;">
+                <a href="https://api.whatsapp.com/send?phone=5521996433738"><i class="fa-brands fa-whatsapp float-left mr-2" style="color:#161616;"></i></a>
+                <a href="mailto: luccenersinteko@hotmail.com"><i class="fa-solid fa-envelope mr-2" style="color:#161616;"></i></a>
+              </p>
+            </div>
           </div>
-      
-        </div>
+        
               
-       <div class="col-12 text-center" style="background: #dbd5d5;"> 
-        <div>
-          <div class="mt-5">  
-            <h2 class="tituloSecao text-center" style="color: #161616;" id="faleconosco">Onde estamos?</h2>
-            <i class="fa-solid fa-map-location-dot fa-2x mb-3" style="color: #161616;"></i><br>
-            <p style="font-weight:300;color: #161616;" class="d-flex justify-content-center align-items-center m-0"><strong>Rua Barão de São Félix, 63/65</strong></p>
-            <p style="font-size: 1.3rem; font-weight:300; color: #161616;" class="d-flex justify-content-center align-items-center mt-0 mb-2">20224-422 - Rio de Janeiro | RJ </p>
-            <p style="font-weight:300; color: #161616;" class="d-flex justify-content-center align-items-center phone-contact">
-              <i class="fa-solid fa-phone mr-1 ml-1"></i>
-              +55 21 2263-7458 ou
-              +55 21 2516-5935
-            </p>
-           
-          </div>
-        </div> 
+          <div class="row text-center" style="background: #edede9;"> 
+            
+            <div class="mt-5">  
+
+              <h2 class="tituloSecao text-center" style="color: #161616;" id="faleconosco">Onde estamos?</h2>
+              <i class="fa-solid fa-map-location-dot fa-2x mb-3" style="color: #161616;"></i><br>
+              <p style="font-weight:300;color: #161616;" class="d-flex justify-content-center align-items-center m-0"><strong>Rua Barão de São Félix, 63/65</strong></p>
+              <p style="font-size: 1.3rem; font-weight:300; color: #161616;" class="d-flex justify-content-center align-items-center mt-0 mb-2">20224-422 - Rio de Janeiro | RJ </p>
+              <p style="font-weight:300; color: #161616;" class="d-flex justify-content-center align-items-center phone-contact">
+                <i class="fa-solid fa-phone mr-1 ml-1"></i>
+                +55 21 2263-7458 ou
+                +55 21 2516-5935
+              </p>
+            
+            </div>
+            
+          </div> 
+        </div>   
       </div><!-- Fim fale conosco -->
       
     </div><!-- Fim conteúdo-->

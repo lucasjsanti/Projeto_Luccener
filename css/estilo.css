@@ -6,7 +6,6 @@
 body {
 	overflow-x: hidden!important;
 	scroll-behavior: smooth;
-	background: #f5ebe0!important;
 	background-attachment: fixed!important;
 }
 
@@ -109,7 +108,6 @@ body {
 }
 
 .carousel-item {
-
 	transition: transform 0.5s ease, opacity!important;
 }
 

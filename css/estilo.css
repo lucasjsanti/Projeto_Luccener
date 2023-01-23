@@ -15,7 +15,8 @@ body {
 
 .navbar {
 	font-family: 'Bellota Text', cursive;
-	font-size: 1rem;
+	font-size: 1.2rem;
+	font-weight: 600!important;
 	display: inline-flex!important;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -23,7 +24,7 @@ body {
 }
 
 .navbar-nav, .nav-item, .nav-link {
-	color: rgb(255, 255, 255)!important;
+	color: rgb(0, 0, 0)!important;
 }
 
 .slide {
@@ -128,6 +129,7 @@ body {
 	font-weight: 600;
 	font-size: 1.8rem;
 	text-align: center;
+	color: #000;
 }
 
 div, .carousel-item {
@@ -138,10 +140,10 @@ div, .carousel-item {
 
 p {
 	font-family: 'Bellota Text', cursive;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 1.5rem;
 	text-align: justify;
-	color: #161616;
+	color: #000000;
 }
 
 .p-contact {

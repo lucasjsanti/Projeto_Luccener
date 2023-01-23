@@ -15,8 +15,8 @@ body {
 
 .navbar {
 	font-family: 'Bellota Text', cursive;
-	font-size: 1.2rem;
-	font-weight: 600!important;
+	font-size: 1rem;
+	font-weight: 900!important;
 	display: inline-flex!important;
 	cursor: pointer;
 	text-transform: uppercase;

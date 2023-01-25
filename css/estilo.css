@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Outfit', sans-serif;
 	font-size: 1.3rem;
 	font-weight: 900!important;
 	display: inline-flex!important;
@@ -30,7 +30,7 @@ body {
 .slide {
 	background-image: url(../images/04.png);
 	background-size: cover; 
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Outfit', sans-serif;
 	background-attachment: fixed!important;
 	padding-top: 20rem;
 	padding-bottom: 22rem;
@@ -118,8 +118,8 @@ body {
 }
 
 .tituloSecao {
-	font-family:'Bebas Neue', cursive;
-	font-weight: 900;
+	font-family:'Outfit', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	margin-top: 3rem;
 	text-transform: uppercase;
@@ -127,7 +127,7 @@ body {
 }
 
 .tituloServico {
-	font-family:'Baloo Bhaijaan 2', cursive;
+	font-family:'Outfit', sans-serif;
 	font-weight: 600;
 	font-size: 1.6rem;
 	text-align: center;
@@ -141,15 +141,15 @@ div, .carousel-item {
 }
 
 p {
-	font-family: 'Bellota Text', cursive;
-	font-weight: 600;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
 	color: #000000;
 }
 
 .p-contact {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Outfit', sans-serif;
 	font-size: 1.3rem; 
 	align-self: center!important; 
 	margin: 0rem; 
@@ -159,7 +159,7 @@ p {
 }
 
 .p-developer {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Outfit', sans-serif;
 	font-weight:500;
 	font-size: 1.3rem; 
 	font-weight:400; 
@@ -168,10 +168,16 @@ p {
 }
 
 span {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Outfit', sans-serif;
 	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
+}
+
+ button, a {
+
+	font-family: 'Outfit', sans-serif!important;
+	font-weight: 400!important;	
 }
 
 .carousel-control-next,
@@ -207,6 +213,25 @@ span {
 	width: 100%!important;
 	height: 50rem;
 	padding: 0rem;
+
+}
+
+.btn {
+
+	background: #4d3833!important;
+	border: none!important;
+	border-radius: 0px!important;
+	color: #ffff!important;
+}
+
+.btn:hover {
+
+	background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.a {
+
+	text-decoration: none!important;
 
 }
 

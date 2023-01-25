@@ -26,6 +26,13 @@ body {
 	color: rgb(255, 255, 255)!important;
 }
 
+.navbar-collapse {
+	
+	display: flex!important;
+	justify-content: center!important;
+	align-items: end!important;
+}
+
 .slide {
 	background-image: url(../images/04.png);
 	background-size: cover; 
@@ -160,15 +167,20 @@ div, .carousel-item {
 }
 
 .al-i { 
-
 	display: inline!important;
 	vertical-align: middle!important;
+}
+
+.alin-vert {
+
+	line-height: 2rem!important;
 }
 
 .corSeção {
 
 	color: #000!important;
 }
+
 
 .qsomos {
 

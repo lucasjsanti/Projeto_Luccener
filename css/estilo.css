@@ -201,7 +201,7 @@ div, .carousel-item {
 
 h5 { 
 
-	font-size: 1.3rem!important;
+	font-size: 1.2rem!important;
 	color: #000!important;
 }
 
@@ -233,7 +233,7 @@ footer i {
 p {
 	font-family: 'Outfit', sans-serif;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	text-align: justify;
 	color: #000;
 }
@@ -266,7 +266,7 @@ footer p {
 span {
 	font-family: 'Outfit', sans-serif;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	text-align: justify;
 }
 
@@ -406,12 +406,18 @@ a {
 @media (min-width: 1200px) {}
 
 
-	img.height {
-		object-fit: cover;
-		height: 12.74rem;
+img.height {
+	object-fit: cover;
+	height: 12.74rem;
 
 	}
+	
+.removePadding {
 
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+	
 
 
 

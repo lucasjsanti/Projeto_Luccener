@@ -56,19 +56,18 @@
 
   <body>
     <!-- Barra de Navegação -->
-    <div class="container-fluid">
-      <div class="container">
-        <header>
-          <nav class="navbar navbar-expand-lg navbar-light pl-5 pr-5 fixed-top" id="index" style="background: #332d2b;">
-            <div>         
-              <a href="index.html"><img class="navbar-brand" height="80" src="images/luc-cener-logo.svg"/></a>
-            </div>
-            
+
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light pl-5 pr-5 fixed-top" id="index" style="background: #332d2b;">
+          <div class='container'>
+            <a href="index.html"><img class="navbar-brand" height="80" src="images/luc-cener-logo.svg"/></a>
+          
+          
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
     
-            <div class="collapse navbar-collapse pl-3 mt-2" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse pl-3 mt-2 navegacao" id="navbarSupportedContent">
               <ul class="navbar-nav">
     
                 <li class="nav-item">
@@ -89,27 +88,30 @@
     
               </ul>          
             </div>
-          </nav>
-        </header>
-      </div>
-    </div>
+          </div>
+        </nav>
+      </header>
     
     <!-- Slide -->
-
+    
     <div class="slide">
-      <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner"> <!--Inner -->
+      <div id="carousel" class="carousel slide carousel-fade">
+        <div class="carousel-inner "> <!--Inner -->
           
-          <div class="carousel-item active">
-            <h1 class="display-4 tituloSlide">Sempre com você</h1>
-            <span class="display-6 tituloServico">Conte com a gente!</span><br>
-            <span class="display-6 tituloServico">Serviços de qualidade é aqui!</span>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/045.png" class="img-fluid w-100">
+            <div class="carousel-caption">
+              <h1 class= "display-5 mb-1">Materiais de qualidade</h1>
+              <span class="fontsize">Para seu piso revitalizado</span>
+            </div>
           </div>
-
           
-          <div class="carousel-item ">
-            <h1 class="display-4 tituloSlide">Materiais de qualidade</h1>
-            <span class="display-6 mb-5 tituloServico">Seu piso merece o melhor!</span> 
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="images/teste1.jpg" class="img-fluid w-100" >
+            <div class="carousel-caption">
+              <h1 class= "display-5 mb-1">Sempre com você</h1>
+              <span class="fontsize">Conte conosco!</span>
+            </div>
           </div>
         </div> <!--/Inner -->
         
@@ -124,6 +126,8 @@
           
       </div>
     </div>
+      
+    
 
     <!-- Ínício conteúdo -->
 
@@ -193,11 +197,11 @@
 
       <!-- Serviços -->
 
-      <div class="container-fluid p-0">
+      <div class="container-fluid mt-5">
         <div class="container">
 
           <div class="col-12">
-            <h2 class="tituloSecao corDestaque mb-5 mt-5" id="servicos">Serviços</h2>
+            <h2 class="tituloSecao corDestaque mb-5" id="servicos">Serviços</h2>
           </div>
 
           <div class="row gx-5">
@@ -381,7 +385,7 @@
               <h3 class="tituloServico m-0 text-center">Venda de materiais</h3>
               <i class="fa-regular fa-credit-card mr-2 fa-2x d-flex justify-content-center mb-5"></i>
               <div class="">
-                <p class="text-justify px-2">A Luccener é especializada em todos os tipos de materiais para piso de madeira, mármores, granitos. Aqui você vai encontrar um excelente atendimento, materiais de qualidade e preços acessíveis e que cabem no seu bolso.</p>
+                <p class="text-justify px-2">A Luccener é especializada em todos os tipos de materiais para piso de madeira, mármores, granitos. Aqui você vai encontrar um excelente atendimento, materiais de qualidade.</p>
               </div>
             </div>
 
@@ -439,7 +443,7 @@
       </div>
       
       <!-- Início parceiros -->
-      <div class="container-fluid py-5">
+      <div class="container-fluid py-5" style="padding: 0px!important;">
         <div class="container">
 
           <div class="col-12 justify-content-center">
@@ -520,7 +524,7 @@
         </div>
       </div>
 
-      <div class="container-fluid" style= "background: #ffff;">
+      <div class="container-fluid py-5" style= "background: #ffff;">
         <div class="container">
           <div class="row text-center">
             <div class="col-12 mb-4 mt-4">

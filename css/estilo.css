@@ -31,6 +31,10 @@ header {
 	color: rgb(255, 255, 255)!important;
 }
 
+.nav-item, .nav-link:hover {
+	color: #db9b7f!important;
+}
+
 .fa-angle-left,
 .fa-angle-right
  {

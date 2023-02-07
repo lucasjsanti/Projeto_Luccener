@@ -153,8 +153,8 @@ header {
 
 .tituloServico {
 	font-family:'Outfit', sans-serif;
-	font-weight: 600;
-	font-size: 1.6rem;
+	font-weight: 600!important;
+	font-size: 1.6rem!important;
 	text-align: center;
 	color: #000;
 	display: flex;
@@ -215,10 +215,6 @@ h2 {
 	color: #000!important;
 }
 
-h3 {
-
-	color: #000!important;
-}
 
 i {
 
@@ -253,8 +249,8 @@ footer p {
 	font-size: 1.3rem; 
 	align-self: center!important; 
 	margin: 0rem; 
-	color: rgb(0, 0, 0)!important; 
-	font-weight:400;
+	color: #ffff!important; 
+	font-weight:100;
 
 }
 
@@ -263,7 +259,7 @@ footer p {
 	font-weight:500;
 	font-size: 1.3rem; 
 	font-weight:400; 
-	color: #ffff
+	color: #ffff;
 
 }
 
@@ -400,6 +396,8 @@ a {
 
 		font-size: xx-small!important;
 	}
+
+
 	
  }
 
@@ -430,11 +428,11 @@ img.height {
 	padding-bottom: 0px!important;
 }
 
-.space-left {
+.img-thumbnail {
 
-	margin-left:0.2rem!important;
-}
+	box-shadow: none!important;
 	
+}
 
 
 

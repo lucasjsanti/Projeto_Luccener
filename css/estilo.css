@@ -162,10 +162,10 @@ header {
 }
 
 .tituloSlide {
-	font-family:'Outfit', sans-serif;
+	font-family:'Outfit', sans-serif!important;
 	display: flex;
 	justify-content: center;
-	font-weight:700;
+	font-weight:600!important;
 	color: rgb(12, 12, 12);
 }
 
@@ -213,6 +213,11 @@ h2 {
 	margin-top: 60px!important;
 	font-size: 3rem!important;
 	color: #000!important;
+}
+
+.fontsize {
+	font-size: 1.5rem!important;
+	font-weight: 600!important;
 }
 
 
@@ -318,6 +323,7 @@ a {
 	display: inline!important;
 }
 
+
 /* Media Queries */
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -356,8 +362,6 @@ a {
 
 		font-size:1rem!important
 	}
-
-	
 
 	
 }
